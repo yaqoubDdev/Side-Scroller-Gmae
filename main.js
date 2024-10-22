@@ -70,11 +70,12 @@ window.addEventListener('load', function(){
                 if (particle.markedForDeletion) this.particles.splice(index, 1)
             })
 
-            if (this.particles.lenght > this.maxParticle){
+            if (this.particles.length > this.maxParticle){
                 this.particles = this.particles.slice(0, this.maxParticle);
+                
             }
 
-            // console.log(this.particles.length)
+            
 
 
         }
