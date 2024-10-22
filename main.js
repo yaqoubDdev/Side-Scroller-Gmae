@@ -75,6 +75,8 @@ window.addEventListener('load', function(){
                 
             }
 
+            // console.log(this.particles)
+
             
 
 
