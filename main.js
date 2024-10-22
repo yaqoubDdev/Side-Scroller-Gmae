@@ -5,6 +5,7 @@ import { Background } from './background.js';
 import { FlyingEnemy, GroundEnemy, ClimbingEnemy } from './enemies.js';
 import { UI } from './UI.js';
 
+//  this is a test on git branch ignore
 
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
@@ -69,11 +70,14 @@ window.addEventListener('load', function(){
                 if (particle.markedForDeletion) this.particles.splice(index, 1)
             })
 
-            if (this.particles.lenght > this.maxParticle){
+            if (this.particles.length > this.maxParticle){
                 this.particles = this.particles.slice(0, this.maxParticle);
+                
             }
 
-            // console.log(this.particles.length)
+            // console.log(this.particles)
+
+            
 
 
         }
