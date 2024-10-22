@@ -5,6 +5,7 @@ import { Background } from './background.js';
 import { FlyingEnemy, GroundEnemy, ClimbingEnemy } from './enemies.js';
 import { UI } from './UI.js';
 
+//  this is a test on git branch ignore
 
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
